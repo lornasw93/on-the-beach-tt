@@ -1,6 +1,11 @@
 @baseUrl = http://localhost:5133
 
-GET {{baseUrl}}/api/weatherforecast/
+POST {{baseUrl}}/api/
 Accept: application/json
+
+{
+  "DepartingFrom": "MAN",
+  "TravellingTo": "TFS"
+}
 
 ###

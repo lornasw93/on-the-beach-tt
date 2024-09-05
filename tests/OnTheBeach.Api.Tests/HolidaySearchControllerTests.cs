@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
-using Newtonsoft.Json.Linq;
 using OnTheBeach.Api.Controllers;
 using OnTheBeach.Core;
 using OnTheBeach.Domain;

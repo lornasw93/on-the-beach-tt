@@ -79,40 +79,4 @@ public class HolidaySearchServiceTests
         Assert.Empty(response.Flights);
         Assert.Empty(response.Hotels);
     }
-
-    //[Fact]
-    //public void Search_InvalidJsonData_ReturnsEmptyResponse()
-    //{
-    //    // Arrange
-    //    var invalidJsonDataService = new Mock<HolidaySearchService>();
-    //    invalidJsonDataService.Setup(service => service.Search(It.IsAny<HolidaySearchRequest>()))
-    //                          .Throws(new System.Text.Json.JsonException());
-
-    //    var request = new HolidaySearchRequest
-    //    {
-    //        DepartingFrom = "MAN",
-    //        TravellingTo = "PMI"
-    //    };
-
-    //    // Act and Assert
-    //    var exception = Record.Exception(() => invalidJsonDataService.Object.Search(request));
-    //    Assert.IsType<System.Text.Json.JsonException>(exception);
-    //}
-
-    //[Fact]
-    //public void Search_NullOrEmptyRequest_ReturnsEmptyResponse()
-    //{
-    //    // Arrange
-    //    HolidaySearchRequest request = null;
-
-    //    _holidaySearchServiceMock.Setup(service => service.Search(request)).Returns(new HolidaySearchResponse());
-
-    //    // Act
-    //    var response = _holidaySearchServiceMock.Object.Search(request);
-
-    //    // Assert
-    //    Assert.NotNull(response);
-    //    Assert.Empty(response.Flights);
-    //    Assert.Empty(response.Hotels);
-    //}
 }
