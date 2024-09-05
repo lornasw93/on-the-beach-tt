@@ -1,6 +1,6 @@
 # Holiday Search 🔎
 
-*Copy of tech test is [here](https://github.com/lornasw93/on-the-beach-tt/tech-test.pdf)*
+*Copy of tech test is [here](https://github.com/lornasw93/on-the-beach-tt/blob/main/tech-test.pdf)*
 
 This repo provides functionality for a basic holiday search. I decided to use clean architecture over minimal APIs mainly due to separation of concerns and maintainability, especially since it’s a realistic project and I wanted my code to mirror that. I’ve spent approximately 4 hours from start to finish and have noted some areas of both things to be added and improvements (if had more time):
 
