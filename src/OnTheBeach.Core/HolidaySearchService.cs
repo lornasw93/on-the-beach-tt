@@ -1,6 +1,6 @@
 ﻿namespace OnTheBeach.Core;
 
-public class HolidaySearchService
+public class HolidaySearchService : IHolidaySearchService
 {
 
 }
