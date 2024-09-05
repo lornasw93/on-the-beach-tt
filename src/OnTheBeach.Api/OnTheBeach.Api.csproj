@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OnTheBeach.Core\OnTheBeach.Core.csproj" />
     <ProjectReference Include="..\OnTheBeach.Domain\OnTheBeach.Domain.csproj" />
   </ItemGroup>
 

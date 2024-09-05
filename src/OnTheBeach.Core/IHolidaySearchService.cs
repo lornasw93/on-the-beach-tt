@@ -1,9 +1,9 @@
 ﻿using OnTheBeach.Domain.Requests;
-using OnTheBeach.Domain;
+using OnTheBeach.Domain.Responses;
 
 namespace OnTheBeach.Core;
 
 public interface IHolidaySearchService
 {
-    IEnumerable<Holiday> Search(HolidaySearchRequest request);
+    HolidaySearchResponse Search(HolidaySearchRequest request);
 }
