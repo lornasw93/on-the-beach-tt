@@ -10,6 +10,7 @@ public class Flight
     public string To { get; set; }
     public int Price { get; set; }
 
+    //TODO change and handle to DateTime
     [JsonPropertyName("departure_date")]
-    public DateTime DepartureDate { get; set; }
+    public string DepartureDate { get; set; }
 }

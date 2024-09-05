@@ -10,9 +10,7 @@ public class HolidaySearchRequest
     [DefaultValue("TFS")]
     public string TravellingTo { get; set; }
 
-    //[DefaultValue("2023/07/01")]
-    //public DateTime DepartureDate { get; set; }
-
-    //[DefaultValue(null)]
-    //public int Duration { get; set; }
+    //TODO change and handle to DateTime
+    [DefaultValue("2023/07/01")]
+    public string DepartureDate { get; set; }
 }

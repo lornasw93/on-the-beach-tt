@@ -12,9 +12,8 @@ public class HolidaySearchService : IHolidaySearchService
 
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         var holidays = JsonSerializer.Deserialize<HolidaySearchResponse>(jsonData, options);
-
-        if (holidays == null || holidays.Flights == null || holidays.Hotels == null)
-            return new HolidaySearchResponse();
+     
+        if (holidays?.Flights == null || holidays?.Hotels == null) return new HolidaySearchResponse();
 
         return new HolidaySearchResponse
         {
