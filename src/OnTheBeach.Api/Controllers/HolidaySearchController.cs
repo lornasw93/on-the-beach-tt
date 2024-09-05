@@ -24,6 +24,8 @@ public class HolidaySearchController : ControllerBase
         var validationResult = new HolidaySearchRequestValidator().Validate(request);
         if (!validationResult.IsValid)
         {
+            _logger.LogError("Invalid validation: {errors}", validationResult.Errors);
+    
             return BadRequest(validationResult.Errors);
         }
 
