@@ -4,6 +4,7 @@
 
 This repo provides functionality for a basic holiday search. I decided to use clean architecture over minimal APIs mainly due to separation of concerns and maintainability, especially since it’s a realistic project and I wanted my code to mirror that. I’ve spent approximately 4 hours from start to finish and have noted some areas of both things to be added and improvements (if had more time), such as (in no particular order):
 
+* Handle DateTime types (currently just strings for simplicity and time constraints)
 * Authenticate requests via controller
 * Improve validators
 * Include UI (preference would've been Angular but open to any) with tests i.e. Cypress
