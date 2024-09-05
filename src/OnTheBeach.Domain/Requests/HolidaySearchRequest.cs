@@ -1,4 +1,4 @@
-﻿namespace OnTheBeach.Domain;
+﻿namespace OnTheBeach.Domain.Requests;
 
 public class HolidaySearchRequest
 {

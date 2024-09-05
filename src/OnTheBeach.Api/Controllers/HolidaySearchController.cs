@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using OnTheBeach.Domain.Requests;
 
 namespace OnTheBeach.Api.Controllers;
 
@@ -11,5 +12,11 @@ public class HolidaySearchController : ControllerBase
     public HolidaySearchController(ILogger<HolidaySearchController> logger)
     {
         _logger = logger;
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Search(HolidaySearchRequest request)
+    {
+        return Ok();
     }
 }
